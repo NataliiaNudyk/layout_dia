@@ -35,5 +35,7 @@
   &__link {
     color: $main-text-color;
     text-decoration: none;
+
+    @include menu-hover;
   }
 }
